@@ -4,12 +4,51 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div id="permanent" class="contain" >
+      <div class="permanent" >
+        <br> <br>
+          <h1>MEDUSA</h1>
+          <h2>cifrando la resistencia</h2> <br> <br> 
+      </div>
     </div>
+
+    <div id="one">
+      <br><br><br>
+      <p>MEDUSA es un programa creado para cifrar y descifrar 
+        mensajes y así facilitar que tú y tús compañeras puedan 
+        organizarse de forma segura en el mundo virtual</p> <br> <br>
+        <button type="button" id="explanation" class="button" ><span>¿como funciona?</span></button> <br>  <br>
+        <button type="button" id="encode" class="button"><span>comenzar</span></button>
+    </div>
+    <div id="two" class="hide" >
+      <p>MEDUSA utiliza un sistema de cifrado llamado cifrado 
+        césar, éste consiste en un desplazamiento del comienzo del abcdario, 
+        este desplazamiento lo puedes configurar tú en la casilla que pide tú 
+        “clave” u “offset”. El programa tiene dos opciones, puedes cifrar mensajes, 
+        para luego enviarlos, o bien descifrar algún mensaje que te hayan enviado.</p>
+        <button type="button" id="backButton" class="button">volver</button>
+    </div>
+    
+    <div id="three" class="hide">
+      <p>ingresa tu n° clave</p>
+      <form id="myForm">
+      <input id="originalOffset" type="number"> <br> <br>
+      <textarea name="" id="originalText"  placeholder="ingresa tu texto aqui" cols="30" rows="10"></textarea>
+      <textarea name="" id="cipherText"  placeholder="resultado" cols="30" rows="10"></textarea>
+    </form>
+      <br> <br>
+      <button type="button" id="startCode" class="button"> codificar </button>
+      <button type="button" id="startDecode" class="button"> decodificar </button> <br><br>
+       <button type="button" id="startReset" class="button">ocultar</button>
+      <a href="https://www.facebook.com/" target="_blank"> <button id="link" type="button" class="button">compartir</button></a>
+    
+    </div>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
+
