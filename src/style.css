@@ -6,14 +6,15 @@
 /*TÍTULO PERMANENTE*/  
 h1 {
   line-height: 0%;
-  font-size: 80px;
+  font-size: 70px;
+  
 }
 h2 {
-  line-height: 0%
+  color: #E9164B;
+  line-height: 0% 
 }
 .contain {
-background: url("https://static.guiainfantil.com/uploads/ocio/medusa-p.jpg") no-repeat center; 
-background-size: cover;
+
 height: 150px;
 position: relative;
 }
@@ -30,24 +31,32 @@ color: black;
 /*CUERPO*/
 body {  
  text-align: center;
-background-image: url("blob:https://web.whatsapp.com/d258a4b4-773c-4773-8858-305cece1aa27");
-  font-family: 'Permanent Marker', cursive;
+background-image: url("https://o.aolcdn.com/images/dims3/GLOB/crop/2950x1934+1010+1430/resize/1028x675!/format/jpg/quality/85/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-images%2F2019-03%2F46ce0e70-3eb6-11e9-a5ac-be5aa8311b95");
+
+
+font-family: 'Permanent Marker', cursive;
   font-size: 55px;
 
   font-family: 'Overpass', sans-serif;
   font-size: 20px;
 }
+/*instrucciones*/
+#sub-div{
+font-size: 15px;
+}
+
       
   
   /*BOTONES (CONFIGURACIÓN DE ESTILO)*/
   .button {
     font-family: 'Overpass', sans-serif;
     font-size: 20px;
-    background-color:  #3e8e41;
+    color: black;
+    background-color: #E4731E;
     border-radius: 8px; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-    border: 1px solid black;
-    opacity: 0.86;
+   /* border: 1px solid black;*/
+    opacity: 0.80;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
@@ -56,3 +65,11 @@ background-image: url("blob:https://web.whatsapp.com/d258a4b4-773c-4773-8858-305
  .button:hover {opacity: 1}
 }
 
+}
+   /* border: 1px solid black;*/
+    opacity: 0.80;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;  
+}

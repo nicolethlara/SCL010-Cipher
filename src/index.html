@@ -11,39 +11,57 @@
       <div class="permanent" >
         <br> <br>
           <h1>MEDUSA</h1>
-          <h2>cifrando la resistencia</h2> <br> <br> 
+          <h2>cifrando la resistencia</h2> <br> 
       </div>
     </div>
 
     <div id="one">
-      <br><br><br>
-      <p>MEDUSA es un programa creado para cifrar y descifrar 
-        mensajes y así facilitar que tú y tús compañeras puedan 
-        organizarse de forma segura en el mundo virtual</p> <br> <br>
+      <br>
+      <p> <span></span> MEDUSA es un programa creado para cifrar y descifrar mensajes. Cada vez 
+        se nos hace más necesario <br> organizarnos a gran escala para conseguir los cambios que 
+        queremos ver en este sistema de opresión <br> patriarcal, esto en un mundo donde cada día 
+        nos sentimos más vulnerables a filtraciones de  información <br> en el ámbito virtual y de 
+        las redes sociales. Se vuelve difícil, por esto te invitamos a utilizar MEDUSA, <br> para
+         organizar la resistencia de forma
+       segura.</p> <br> <br>
         <button type="button" id="explanation" class="button" ><span>¿como funciona?</span></button> <br>  <br>
         <button type="button" id="encode" class="button"><span>comenzar</span></button>
     </div>
     <div id="two" class="hide" >
       <p>MEDUSA utiliza un sistema de cifrado llamado cifrado 
-        césar, éste consiste en un desplazamiento del comienzo del abcdario, 
-        este desplazamiento lo puedes configurar tú en la casilla que pide tú 
-        “clave” u “offset”. El programa tiene dos opciones, puedes cifrar mensajes, 
-        para luego enviarlos, o bien descifrar algún mensaje que te hayan enviado.</p>
-        <button type="button" id="backButton" class="button">volver</button>
+        césar, éste consiste en un desplazamiento del comienzo <br> del abecedario, cuantos carácteres
+        se desplaza el abecedario es algo que puedes decidir tú, al ingresar el número de tu 
+        elección <br> en la casilla  "clave de desplazamiento". Luego solo tienes que ingresar tu mensaje 
+        en la casilla que así lo indica y presionar <br>  el botón "cifrar" o "descifrar" según corresponda 
+        ¡y listo!  ya solo tienes que copiar tu mensaje y enviarlo a quien quieras. <br> Recuerda que cuando le envíes un mensaje 
+        cifrado a alguien, también debes enviarle la clave de desplazamiento con la que <br> lo cifraste 
+        para que lo puedan descifrar.</p>
+        <button type="button" id="back-button" class="button">volver</button>
     </div>
     
     <div id="three" class="hide">
-      <p>ingresa tu n° clave</p>
-      <form id="myForm">
-      <input id="originalOffset" type="number"> <br> <br>
-      <textarea name="" id="originalText"  placeholder="ingresa tu texto aqui" cols="30" rows="10"></textarea>
-      <textarea name="" id="cipherText"  placeholder="resultado" cols="30" rows="10"></textarea>
-    </form>
+      <p>instrucciones</p>
+      <!--lista de instrucciones de uso-->
+      <div id="sub-div" >
+      <ol>
+
+          <li value="1">escribe tú clave de desplazamiento (número)</li>
+          
+          <li>ingresa el mensaje que deseas cifrar o descifrar</li>
+          
+          <li>haz clic en el botón de la acción que deseas realizar</li>
+          
+          <li>ya puedes copiar tu mensaje y enviarlo</li>
+          </ol>
+      <p>ingresa tu clave de desplazamiento</p>
+      <input id="original-offset" type="number"> <br> 
+      <textarea name="" id="original-text"  placeholder="ingresa tu texto aqui" cols="30" rows="10"></textarea>
+      <textarea name="" id="cipher-text"  placeholder="resultado" cols="30" rows="10"></textarea>
       <br> <br>
-      <button type="button" id="startCode" class="button"> codificar </button>
-      <button type="button" id="startDecode" class="button"> decodificar </button> <br><br>
-       <button type="button" id="startReset" class="button">ocultar</button>
-      <a href="https://www.facebook.com/" target="_blank"> <button id="link" type="button" class="button">compartir</button></a>
+      <button type="button" id="start-code" class="button"> codificar </button>
+      <button type="button" id="start-decode" class="button"> decodificar </button> <br><br>
+      <button type="button" id="back-button-two" class="button">volver</button>
+    </div>
     
     </div>
     

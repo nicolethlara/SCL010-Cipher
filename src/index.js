@@ -6,8 +6,10 @@ function exp()
     document.getElementById("two").style.display = "block";
     document.getElementById("three").style.display = "none";
 }
+console.log(exp);
+
 /*volver desde la pantalla explicación a la pantalla uno*/
-document.getElementById("backButton").addEventListener("click", back);
+document.getElementById("back-button").addEventListener("click", back);
 function back()
 {
     document.getElementById("one").style.display = "block";
@@ -22,16 +24,24 @@ function start()
      document.getElementById("two").style.display = "none";
      document.getElementById("three").style.display = "block";
 }
-/*limpiar casillas de div three*/
+/*volver a la pantalla de inicio*/
+document.getElementById("back-button-two").addEventListener("click", backTwo);
+function backTwo()
+{
+    document.getElementById("one").style.display = "block";
+    document.getElementById("two").style.display = "none";
+    document.getElementById("three").style.display = "none";
+  }
+/*limpiar casillas de div three
 document.getElementById("startReset").addEventListener("click", reset);
 function reset() {
-  document.getElementById("originalOffset").value="";
-  document.getElementById("originalText").value="";
-  document.getElementById("cipherText").value="";
-}
+  document.getElementById("original-offset").value="";
+  document.getElementById("original-text").value="";
+  document.getElementById("cipher-text").value="";
+}*/
 
 /* comenzar a cifrar*/
-document.getElementById("startCode").addEventListener("click", returnEncode);
+document.getElementById("start-code").addEventListener("click", returnEncode);
 function returnEncode() 
  {
    /*let saveMsg = document.getElementById("originalText").value.toUpperCase();
@@ -39,7 +49,7 @@ function returnEncode()
    let offsetNum= parseInt(document.getElementById("originalOffset").value);*/
   
  let result= cipher.encode();
-   document.getElementById("cipherText").innerHTML= result;
+   document.getElementById("cipher-text").innerHTML= result;
 
 
   /* return result;*/
@@ -48,7 +58,7 @@ function returnEncode()
    }
    
  /* comenzar a decifrar*/
-document.getElementById("startDecode").addEventListener("click", returnDecode);
+document.getElementById("start-decode").addEventListener("click", returnDecode);
 function returnDecode() 
  {
    /*let saveMsg = document.getElementById("originalText").value.toUpperCase();
@@ -56,7 +66,7 @@ function returnDecode()
    let offsetNum= parseInt(document.getElementById("originalOffset").value);*/
  
   let result= cipher.decode();
-   document.getElementById("cipherText").innerHTML= result;
+   document.getElementById("cipher-text").innerHTML= result;
 
   
    /*return result;*/
