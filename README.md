@@ -19,7 +19,15 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - La letra A se cifra como D.
 - La palabra CASA se cifra como FDVD.
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C  
+
+___
+
+### Wireframe primera iteración
+
+
+### Wireframe segunda iteración
+
 
 ___
 

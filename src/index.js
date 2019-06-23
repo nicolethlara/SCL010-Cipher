@@ -32,44 +32,22 @@ function backTwo()
     document.getElementById("two").style.display = "none";
     document.getElementById("three").style.display = "none";
   }
-/*limpiar casillas de div three
-document.getElementById("startReset").addEventListener("click", reset);
-function reset() {
-  document.getElementById("original-offset").value="";
-  document.getElementById("original-text").value="";
-  document.getElementById("cipher-text").value="";
-}*/
-
 /* comenzar a cifrar*/
 document.getElementById("start-code").addEventListener("click", returnEncode);
 function returnEncode() 
  {
-   /*let saveMsg = document.getElementById("originalText").value.toUpperCase();
-   
-   let offsetNum= parseInt(document.getElementById("originalOffset").value);*/
-  
+        
  let result= cipher.encode();
    document.getElementById("cipher-text").innerHTML= result;
-
-
-  /* return result;*/
-       
-   
    }
    
  /* comenzar a decifrar*/
 document.getElementById("start-decode").addEventListener("click", returnDecode);
 function returnDecode() 
  {
-   /*let saveMsg = document.getElementById("originalText").value.toUpperCase();
-  
-   let offsetNum= parseInt(document.getElementById("originalOffset").value);*/
  
   let result= cipher.decode();
    document.getElementById("cipher-text").innerHTML= result;
-
-  
-   /*return result;*/
    }
    
   
