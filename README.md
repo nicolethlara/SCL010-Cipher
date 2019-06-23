@@ -20,18 +20,8 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 ___
 
+## Primera iteración de la aplicación web MEDUSA de sistema de cifrado César
 
-## Elecciones de diseño
-
-ya que la aplicación web MEDUSA esta directamente dirigida a usuarias mujeres, la intención fue mantener la paleta de colores en tonos que son generalmente asociados con la feminidad, como el rosado de fondo que según la sicología del color plantea, es un tono que induce a la relajación y a un sentimiento de seguridad, algo muy necesaro ya que se esta trabajando con mensajes delicados cuya privacidad la persona quiere resguardar al punto de estaren una aplicación que le permite cifrarlo. 
-
-los botones de todas las interacciones de la página son amarillos, ya que es un color que llama a  la acción además de ser asociado con el intelecto.
-
-Es un color que al igual que el rosado también transmite cálidez, por lo que ayuda a construir una sensación integral de estar entrando a un espacio seguro, confiable, acogedor y alegre que usarían y recomendarían. 
-
-El fondo de la  aplicación web además de ser rosado contiene imágenes de puños alzados, los comienzos de esta iconografía se remontan a las primeras propagandas de organizaciones sindicales y ha sido luego de esto adoptado como simbolismo de varios grupos "radicales" entre estos el feminismo. Es un simbolismo que logra encapsular la idea de resistencia, solidaridad, orgullo y militancia.
-
-Me pareció apropiada ya que se vuelve una imagen que representa directamente los intereses del publico objetivo de esta aplicación web, al ser éste público objetivo mujeres que estan buscando organizar la resistencia. Al mantenerse el mismo fondo a través de todas las interacciones de la aplicación web, construye una sensación de compañerismo y consecuencia con éste compañerismo.
 
 ___
 
@@ -57,10 +47,6 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 - observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
 - observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
 - preguntarle si entiende para que sirve la clave de desplazamiento
-
-## Primera iteración de la aplicación web MEDUSA
-
-
 
 
 
@@ -156,7 +142,39 @@ entendió el propósito de los botones sin problema.
 
 ___
 
+## Conclusiones del test de usabilidad
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___
+
+## Elecciones de diseño
+
+ya que la aplicación web MEDUSA esta directamente dirigida a usuarias mujeres, la intención fue mantener la paleta de colores en tonos que son generalmente asociados con la feminidad, como el rosado de fondo que según la sicología del color plantea, es un tono que induce a la relajación y a un sentimiento de seguridad, algo muy necesaro ya que se esta trabajando con mensajes delicados cuya privacidad la persona quiere resguardar al punto de estaren una aplicación que le permite cifrarlo. 
+
+los botones de todas las interacciones de la página son amarillos, ya que es un color que llama a  la acción además de ser asociado con el intelecto.
+
+Es un color que al igual que el rosado también transmite cálidez, por lo que ayuda a construir una sensación integral de estar entrando a un espacio seguro, confiable, acogedor y alegre que usarían y recomendarían. 
+
+El fondo de la  aplicación web además de ser rosado contiene imágenes de puños alzados, los comienzos de esta iconografía se remontan a las primeras propagandas de organizaciones sindicales y ha sido luego de esto adoptado como simbolismo de varios grupos "radicales" entre estos el feminismo. Es un simbolismo que logra encapsular la idea de resistencia, solidaridad, orgullo y militancia.
+
+Me pareció apropiada ya que se vuelve una imagen que representa directamente los intereses del publico objetivo de esta aplicación web, al ser éste público objetivo mujeres que estan buscando organizar la resistencia. Al mantenerse el mismo fondo a través de todas las interacciones de la aplicación web, construye una sensación de compañerismo y consecuencia con éste compañerismo.
+
+___
+
+## Segunda iteración de la aplicación web MEDUSA de sistema de cifrado César
 
 
 
