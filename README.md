@@ -25,9 +25,12 @@ ___
 
 ### Wireframe primera iteración
 
+![](img/wireframe2.jpeg)
+
 
 ### Wireframe segunda iteración
 
+![](img/wireframe1.jpeg)
 
 ___
 
@@ -78,7 +81,7 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 5. observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
 6. preguntarle si entiende para que sirve la clave de desplazamiento
 
-
+___
 
 ### Aplicación test de usabilidad
 
@@ -175,6 +178,22 @@ También descubrí que producía confusión el hecho de que la orden sobre la ca
 ___
 
 ## Segunda iteración de la aplicación web MEDUSA de sistema de cifrado César
+
+![](img/segunda-iteración-fp1.png)
+
+![](img/segunda-iteración-fp2.png)
+
+![](img/segunda-iteración-fp3.png)
+___
+![](img/segunda-iteración-fp4.png)
+
+![](img/segunda-iteración-fp5.png)
+
+![](img/segunda-iteración-fp6.png)
+
+![](img/segunda-iteración-fp7.png)
+
+![](img/segunda-iteración-fp8.png)
 
 ___
 
