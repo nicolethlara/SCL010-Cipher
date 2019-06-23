@@ -59,8 +59,7 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 ##Pasos
 
 -la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
--indicar a la usuaria que presione el botón saber más y lea la explicación extendida
--luego preguntarle si esto le aporto alguna información nueva que considere relevante
+-indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
 -observar si entiende como volver atrás al punto de partida
 -hacer que presione el botón comenzar e intente cifrar un mensaje
 -observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
@@ -68,6 +67,88 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 -preguntarle si entiende para que sirve la clave de desplazamiento
 
 ##Primera iteración de la aplicación web MEDUSA
+
+
+
+
+
+## Test de usabilidad aplicado
+
+Usuaria A: Mujer de 18 años 
+
+-la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que es la finalidad de ésta
+    "que es como una plataforma segura para interactuar con las personas, para facilitar el comunicarse" no le queda claro que es solo para cifrar y no para enviar mensajes.
+    
+-indicar a la usuaria que presione el botón saber más y lea la explicación extendida luego preguntarle si esto le aporto alguna información nueva que considere relevante
+     "es para guardar los mensajes para que quede más privada, es que la guardes en una caja con un candado"
+
+-observar si entiende como volver atrás al punto de partida
+     logra volver atrás sin ningún problema
+
+-hacer que presione el botón comenzar e intente cifrar un mensaje
+    ingresa la clave de desplazamiento y un texto en la casilla que corresponde, pero luego también escribe en la casilla de resultado, no entiende que debe presionar el botón codificar
+    
+-observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
+    no entendió que hacía la casilla del offset
+
+-observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
+    no entendió al primer intento
+
+-preguntarle si entiende para que sirve la clave de desplazamiento
+    "entiendo que es una clave que debo tener para descifrar el mensaje"
+
+
+Usuaria B: Mujer de 32 años 
+
+-la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
+     "es un programa para cifrar mensajes y enviarlos".    
+
+-indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
+     "entendí que tiene un sistema, que tiene un nombre que se llama César, no me queda claro a que se refiere con desplazamiento del abecedario".
+
+-observar si entiende como volver atrás al punto de partida
+     entiende como volver atrás sin problema.
+
+-hacer que presione el botón comenzar e intente cifrar un mensaje observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
+     primero ingreso el texto que quería cifrar y presionó el botón codificar, se dió cuenta que no le estaba devolviendo el mensaje cifrado, luego se dio cuenta de que no había llenado la casilla de offset, luego de hacerlo logró cifrar el mensaje.
+
+-observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
+     entendió sin problema.
+
+-preguntarle si entiende para que sirve la clave de desplazamiento
+     "entiendo que es necesario escribirla, pero no entiendo realmente que hace".
+
+
+Usuaria C: Mujer de 28 años
+
+-la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta    
+     "que es un programa para organizarse entre mujeres, podría ser una red social incluso."
+
+-indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
+     "te explica como funciona el cifrado, entiendo que yo debo configurarlo y ahí voy a entender como funciona, entiendo que yo voy a decidir en que letra comenzará el abecedario para mi, y podré descifrar los mensajes en mi idioma pordecirlo de alguna forma."
+
+-observar si entiende como volver atrás al punto de partida
+     logra volver atrás sin problema.
+
+-hacer que presione el botón comenzar e intente cifrar un mensaje, observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
+     ingreso primero el offset y luego el mensaje que quería cifrar y logró cifrarlo sin mayor problema, sugirió que en esta parte debería haber un botón para volver atrás.
+
+-observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
+     entendió el propósito de los botones sin problema.
+
+-preguntarle si entiende para que sirve la clave de desplazamiento
+     "si, entiendo que es la cantidad de espacios que se moverá el comienzo de mi abecedario."
+
+
+-la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
+-indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
+-observar si entiende como volver atrás al punto de partida
+-hacer que presione el botón comenzar e intente cifrar un mensaje
+-observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
+-observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
+-preguntarle si entiende para que sirve la clave de desplazamiento
+
+
 
 
 
