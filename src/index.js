@@ -6,7 +6,7 @@ function exp()
     document.getElementById("two").style.display = "block";
     document.getElementById("three").style.display = "none";
 }
-console.log(exp);
+
 
 /*volver desde la pantalla explicación a la pantalla uno*/
 document.getElementById("back-button").addEventListener("click", back);

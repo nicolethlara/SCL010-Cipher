@@ -42,11 +42,19 @@ font-family: 'Permanent Marker', cursive;
 }
 /*instrucciones*/
 #sub-div{
-font-size: 15px;
+font-size: 13px;
 }
 
-      
-  
+/*text area*/
+#original-text {
+  width:220px;height:150px;border: 4px solid #E9164B;
+}   
+#cipher-text {
+  width:220px;height:150px;border: 4px solid #E9164B; 
+}
+#original-offset {
+  width:40px;height:30px;border: 2px solid #E9164B;
+}
   /*BOTONES (CONFIGURACIÓN DE ESTILO)*/
   .button {
     font-family: 'Overpass', sans-serif;
