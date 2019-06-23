@@ -1,7 +1,7 @@
 # MEDUSA 
 ## cifrando la resistencia
 
-Esta aplicción web fue creada para facilitar una comunicación segura a través de redes sociales e internet en general, para mujeres que necesitan organizar eventos de disidencia política, en caso de que sean no autorizados, no legales o para personas que viven en países donde la libertad de expresión no esta garantizada dentro de la constitución.
+Esta aplicación web fue creada para facilitar una comunicación segura a través de redes sociales e internet en general, para mujeres que necesitan organizar eventos de disidencia política, en caso de que sean no autorizados, no legales o para personas que viven en países donde la libertad de expresión no esta garantizada dentro de la constitución.
 Aplicaciones como **Whatsapp** manejan sistemas de cifrado propios que son altamente efectivos en cuanto a resguardar la seguridad de los mensajes, pero ésta aplicación nunca ha sido la ideal para organizar eventos con una alta convocatoria, debido a lo engorroso que resulta ya que requiere primero conocer el número de teléfono de todas las personas que participaran para poder incluirlas en el chat y traspasarles la información. Además la interfaz no es muy amigable para administrar organizademente una tan gran cantidad de mensajes como la habría si estamos planeando un evento más masivo.
 Es por esto que gran parte de estos eventos son organizados a través deplataformas como  **Facebook**, debido a que la red social cuenta con plantillas especificas para organizar eventos, que facilitan una óptima distribución y manejo de la información, y al mismo tiempo es más sencillo difundirlo y hacerlo llegar a más gente. 
 Aqui entra la funcionalidad del programa MEDUSA, ya que permite que puedan entregar esta infromación delicada de forma abierta y que solo la gente que tenga la clave pueda entenderla. 
@@ -18,17 +18,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-
-```mermaid
-graph LR
-A(Bienvenida) --> B{¿como funciona? o comenzar}
-B --> C[Cómo funciona]
-B --> D[Comenzar]
-C --> E{Volver}
-E --> A
-D --> F[Codificar o Decodificar]
-F --> G[Texto codificado]
-F --> H[Texto decodificado]
+___
 
 
 ##Elecciones de diseño
@@ -43,11 +33,13 @@ El fondo de la  aplicación web además de ser rosado contiene imágenes de puñ
 
 Me pareció apropiada ya que se vuelve una imagen que representa directamente los intereses del publico objetivo de esta aplicación web, al ser éste público objetivo mujeres que estan buscando organizar la resistencia. Al mantenerse el mismo fondo a través de todas las interacciones de la aplicación web, construye una sensación de compañerismo y consecuencia con éste compañerismo.
 
+___
+
 ##Test de usabilidad
 
 El test de usabilidad que decidí realizar para obtener feedback fue el de entrevistas con usuarios reales. Para esto seleccione a tres mujeres que militan activamente dentro del feminismo, pero que son de distintos rangos etarios, para así tener una mejor representatividad del test.
 
-###Objetivos
+####Objetivos
 
 -saber si se entiende la temática de la página
 -saber si las decisiones de diseño ayudan a transmitir la temática
@@ -56,7 +48,7 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 -observar si la aplicación es lo suficientemente intuituva para que la puedan utilizar sin necesitar hacerme preguntas
 -saber si queda clara la utilidad de cada botón
 
-##Pasos
+####Pasos
 
 -la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
 -indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
@@ -74,80 +66,73 @@ El test de usabilidad que decidí realizar para obtener feedback fue el de entre
 
 ## Test de usabilidad aplicado
 
-Usuaria A: Mujer de 18 años 
+####Usuaria A: Mujer de 18 años 
 
 -la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que es la finalidad de ésta
-    "que es como una plataforma segura para interactuar con las personas, para facilitar el comunicarse" no le queda claro que es solo para cifrar y no para enviar mensajes.
+  *"que es como una plataforma segura para interactuar con las personas, para facilitar el comunicarse"* no le queda claro que es solo para cifrar y no para enviar mensajes.
     
 -indicar a la usuaria que presione el botón saber más y lea la explicación extendida luego preguntarle si esto le aporto alguna información nueva que considere relevante
-     "es para guardar los mensajes para que quede más privada, es que la guardes en una caja con un candado"
+  *"es para guardar los mensajes para que quede más privada, es que la guardes en una caja con un candado"*
 
 -observar si entiende como volver atrás al punto de partida
-     logra volver atrás sin ningún problema
+   logra volver atrás sin ningún problema
 
 -hacer que presione el botón comenzar e intente cifrar un mensaje
-    ingresa la clave de desplazamiento y un texto en la casilla que corresponde, pero luego también escribe en la casilla de resultado, no entiende que debe presionar el botón codificar
+   ingresa la clave de desplazamiento y un texto en la casilla que corresponde, pero luego también escribe en la casilla de resultado, no entiende que debe presionar el botón codificar
     
 -observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
-    no entendió que hacía la casilla del offset
+    no entendió qué hacía la casilla del offset
 
 -observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
     no entendió al primer intento
 
 -preguntarle si entiende para que sirve la clave de desplazamiento
-    "entiendo que es una clave que debo tener para descifrar el mensaje"
+    *"entiendo que es una clave que debo tener para descifrar el mensaje"*
 
 
-Usuaria B: Mujer de 32 años 
+####Usuaria B: Mujer de 32 años 
 
 -la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
-     "es un programa para cifrar mensajes y enviarlos".    
+    *"es un programa para cifrar mensajes y enviarlos".*   
 
 -indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
-     "entendí que tiene un sistema, que tiene un nombre que se llama César, no me queda claro a que se refiere con desplazamiento del abecedario".
+  *"entendí que tiene un sistema, que tiene un nombre que se llama César, no me queda claro a que se refiere con desplazamiento del abecedario".*
 
 -observar si entiende como volver atrás al punto de partida
-     entiende como volver atrás sin problema.
+  entiende como volver atrás sin problema.
 
 -hacer que presione el botón comenzar e intente cifrar un mensaje observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
-     primero ingreso el texto que quería cifrar y presionó el botón codificar, se dió cuenta que no le estaba devolviendo el mensaje cifrado, luego se dio cuenta de que no había llenado la casilla de offset, luego de hacerlo logró cifrar el mensaje.
+  primero ingresó el texto que quería cifrar y presionó el botón codificar, se dió cuenta que no le estaba devolviendo el mensaje cifrado, luego se dio cuenta de que no había llenado la casilla de offset, luego de hacerlo logró cifrar el mensaje.
 
 -observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
      entendió sin problema.
 
 -preguntarle si entiende para que sirve la clave de desplazamiento
-     "entiendo que es necesario escribirla, pero no entiendo realmente que hace".
+     *"entiendo que es necesario escribirla, pero no entiendo realmente que hace".*
 
 
-Usuaria C: Mujer de 28 años
+####Usuaria C: Mujer de 28 años
 
 -la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta    
-     "que es un programa para organizarse entre mujeres, podría ser una red social incluso."
+     *"que es un programa para organizarse entre mujeres, podría ser una red social incluso."*
 
 -indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
-     "te explica como funciona el cifrado, entiendo que yo debo configurarlo y ahí voy a entender como funciona, entiendo que yo voy a decidir en que letra comenzará el abecedario para mi, y podré descifrar los mensajes en mi idioma pordecirlo de alguna forma."
+  *"te explica como funciona el cifrado, entiendo que yo debo configurarlo y ahí voy a entender como funciona, entiendo que yo voy a decidir en que letra comenzará el abecedario para mi, y podré descifrar los mensajes en mi idioma pordecirlo de alguna forma."*
 
 -observar si entiende como volver atrás al punto de partida
-     logra volver atrás sin problema.
+  logra volver atrás sin problema.
 
 -hacer que presione el botón comenzar e intente cifrar un mensaje, observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
-     ingreso primero el offset y luego el mensaje que quería cifrar y logró cifrarlo sin mayor problema, sugirió que en esta parte debería haber un botón para volver atrás.
+  ingreso primero el offset y luego el mensaje que quería cifrar y logró cifrarlo sin mayor problema, sugirió que en esta parte debería haber un botón para volver atrás.
 
 -observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
-     entendió el propósito de los botones sin problema.
+  entendió el propósito de los botones sin problema.
 
 -preguntarle si entiende para que sirve la clave de desplazamiento
-     "si, entiendo que es la cantidad de espacios que se moverá el comienzo de mi abecedario."
+  *"si, entiendo que es la cantidad de espacios que se moverá el comienzo de mi abecedario."*
 
 
--la usuaria debe mirar el primer despliegue de la página, leerlo sin realizar ninguna acción y explicarme cuál entiende que esla finalidad de ésta
--indicar a la usuaria que presione el botón saber más y lea la explicación extendida, luego preguntarle si esto le aporto alguna información nueva que considere relevante
--observar si entiende como volver atrás al punto de partida
--hacer que presione el botón comenzar e intente cifrar un mensaje
--observar si entendió que primero debía ingresar un número de desplazamiento en la casilla y que ésto era un paso necesario para que el cifrado descifrado funcionara
--observar si entiende la funcionalidad de los botones "cifrar" y "descifrar"
--preguntarle si entiende para que sirve la clave de desplazamiento
-
+___
 
 
 
